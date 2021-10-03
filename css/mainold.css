@@ -1,3 +1,5 @@
+/************* BASE STYLES *************/
+
 * {
     box-sizing: border-box;
 }
@@ -41,7 +43,7 @@ h6 {
 }
 
 
-/*****************************************/
+/***************************************/
 
 .container {
     margin: 0 auto;
@@ -80,31 +82,31 @@ section {
     cursor: pointer;
     border: 0;
     padding: 6px 12px;
-    line-height: 1.4;
     border-radius: 3px;
+    line-height: 1.4;
 }
 
 .btn-default {
-    color: #ffffff;
+    color: white;
     background-color: #faa541;
 }
 
 .btn-primary {
-    color: #ffffff;
+    color: white;
     background-color: #364147;
 }
 
 .form-control {
     display: block;
     padding: 6px 12px;
-    line-height: 1.4;
+    border: solid 1px #a0a0a0;
     color: #8598a2;
-    border: 1px solid #a0a0a0;
+    line-height: 1.4;
 }
 
 .text-light {
     font-size: 30px;
-    color: #A0A0A0;
+    color: #a0a0a0;
 }
 
 .text-secondary {
@@ -118,7 +120,8 @@ section {
 }
 
 .header-nav {
-    border-bottom: 1px solid #a0a0a0;
+    border-bottom: 1px;
+    color: #a0a0a0;
 }
 
 .brand {
@@ -137,21 +140,21 @@ section {
     width: 330px;
     height: 30px;
     padding: 6px 12px;
-    border: 1px solid #a0a0a0;
+    border: solid 1px #a0a0a0;
 }
 
 .search-button {
     background-color: #a0a0a0;
+    color: #ffffff;
     width: 100px;
     height: 30px;
-    color: #ffffff;
     border: 0;
     padding: 0;
 }
 
 .nav-list {
-    width: 575px;
     padding-left: 0;
+    width: 575px;
     margin-top: 10px;
 }
 
